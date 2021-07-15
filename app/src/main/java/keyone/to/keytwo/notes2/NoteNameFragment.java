@@ -52,7 +52,7 @@ public class NoteNameFragment extends Fragment {
             showPortNoteDescription(currentNote);
     }
 
- 
+
     private void showPortNoteDescription(Note currentNote) {
         // Мы полностью перешли на single-activity архитектуру, и теперь все проиходит в MainActivity
         Toast.makeText(getActivity(), " Выбрана заметка " + currentNote.getNoteName(getActivity()) + " \nМы полностью перешли на single-activity архитектуру, и теперь все проиходит в MainActivity", Toast.LENGTH_SHORT).show();
